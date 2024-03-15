@@ -1,6 +1,6 @@
-package com.bb.commons;
+package com.bb.commons.enums;
 
-import com.bb.commons.Enums.ConnectorMetadata;
+import com.bb.commons.enums.Enums.ConnectorMetadata;
 
 /**
  * Enum representing different connector types for a storage service.

@@ -1,4 +1,4 @@
-package com.bb.commons;
+package com.bb.commons.enums;
 
 
 /**

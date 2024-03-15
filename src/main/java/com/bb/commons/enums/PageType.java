@@ -1,4 +1,4 @@
-package com.bb.commons;
+package com.bb.commons.enums;
 
 
 import java.util.Arrays;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.bb.commons.Enums.FileType;
+import com.bb.commons.enums.Enums.FileType;
 
 /**
  * Enum representing different page types for pagination.
