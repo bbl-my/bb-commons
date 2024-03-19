@@ -5,7 +5,7 @@ package com.bb.commons.enums;
  * Enum representing different authentication values associated with AuthType
  * for a storage service.
  * 
- * @author Mahesh Yadav
+ * @author Mahesh.Yadav@blueberry.ai
  * @version 1.0
  */
 public enum AuthValue {

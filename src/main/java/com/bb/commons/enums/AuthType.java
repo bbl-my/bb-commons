@@ -4,7 +4,7 @@ package com.bb.commons.enums;
 /**
  * Enum representing different authentication types for a storage service.
  * 
- * @author Mahesh Yadav
+ * @author Mahesh.Yadav@blueberry.ai
  * @version 1.0
  */
 public enum AuthType {

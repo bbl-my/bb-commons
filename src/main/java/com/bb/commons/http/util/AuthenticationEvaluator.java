@@ -10,10 +10,25 @@ import com.bb.commons.enums.AuthType;
 import com.bb.commons.enums.AuthValue;
 import com.bb.commons.exception.ConfigurationException;
 
+/**
+ * Utility class for evaluating and adding authentication details to HTTP
+ * requests.
+ * 
+ * @author Mahesh.Yadav@blueberry.ai
+ * @version 1.0
+ */
 public class AuthenticationEvaluator {
 
+	/**
+	 * Adds authentication details to the given HTTP request based on the provided
+	 * authentication configuration.
+	 * 
+	 * @param url            the URL associated with the request
+	 * @param authentication the authentication configuration to apply
+	 * @param httpRequest    the HTTP request to modify
+	 */
 	public void addAuthentication(String url, Authentication authentication, HttpRequestBase httpRequest) {
-		vadlidateAuth(authentication);
+		validateAuth(authentication);
 		if (AuthType.URL.equals(authentication.getAuthType())) {
 			String token = authentication.getAuthValues().get(AuthValue.URL_AUTH_TOKEN);
 			String tokenToBeReplaced = authentication.getAuthValues().get(AuthValue.URL_PLACEHOLDER_TEXT);
@@ -24,7 +39,13 @@ public class AuthenticationEvaluator {
 		}
 	}
 
-	public void vadlidateAuth(Authentication authentication) {
+	/**
+	 * Validates the authentication configuration.
+	 * 
+	 * @param authentication the authentication configuration to validate
+	 * @throws ConfigurationException if the authentication configuration is invalid
+	 */
+	public void validateAuth(Authentication authentication) {
 		AuthType authType = authentication.getAuthType();
 		if (authType == null) {
 			throw new ConfigurationException("Authentication not configured properly. AuthType is missing.");

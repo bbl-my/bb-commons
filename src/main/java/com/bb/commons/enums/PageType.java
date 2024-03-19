@@ -11,7 +11,7 @@ import com.bb.commons.enums.Enums.FileType;
 /**
  * Enum representing different page types for pagination.
  *
- * @author Mahesh Yadav
+ * @author Mahesh.Yadav@blueberry.ai
  * @version 1.0
  */
 public enum PageType {
