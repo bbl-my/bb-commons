@@ -1,6 +1,5 @@
 package com.bb.commons.enums;
 
-
 /**
  * Enumeration classes defining various types, statuses, and metadata for a
  * storage service.
@@ -45,6 +44,23 @@ public class Enums {
 
 		public String getDataType() {
 			return dataType;
+		}
+	}
+
+	/**
+	 * Enumeration for different data types.
+	 */
+	public static enum ValidationType {
+		URL("url"), EMAIL("email");
+
+		private String validationType;
+
+		private ValidationType(String validationType) {
+			this.validationType = validationType;
+		}
+
+		public String getDataType() {
+			return validationType;
 		}
 	}
 
@@ -115,8 +131,8 @@ public class Enums {
 	 */
 	public enum ConnectorMetadata {
 		RSS_NAME("RSS Name"), RSS_URL("RSS Url"), API_URL("API Url"), METHOD("Method"), QUERY("Query"), NAME("Name"),
-		ROOT_NODE("Root node for splitting"), BODY_ENABLED(""), PAGING_OPTION_ENABLED(""), SMART_SCHEDULING_ENABLED(""),
-		AUTH_OPTION_ENABLED(""), SETTING_OPTION_ENABLED("");
+		ROOT_NODE("Root node for splitting"), BODY_ENABLED(null), PAGING_OPTION_ENABLED(null),
+		SMART_SCHEDULING_ENABLED(null), AUTH_OPTION_ENABLED(null), SETTING_OPTION_ENABLED(null);
 
 		private final String value;
 
@@ -129,4 +145,5 @@ public class Enums {
 		}
 
 	}
+
 }
