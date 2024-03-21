@@ -1,6 +1,5 @@
 package com.bb.commons.enums;
 
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -28,6 +27,10 @@ public enum PageType {
 	 * Header-based pagination. No associated values.
 	 */
 	HEADER("", Arrays.asList()),
+	/**
+	 * Url-based pagination. No associated values.
+	 */
+	URL("Url", Arrays.asList(PageValue.FULL_URL_PATH)),
 
 	REPLACE_PARAMETER("Parameter replace",
 			Arrays.asList(PageValue.TEMPLATE_APPEND, PageValue.TEMPLATE_PAGE_PLACEHOLDER,
@@ -44,7 +47,7 @@ public enum PageType {
 
 	static {
 		PAGE_TYPE_MAPPING.put(FileType.JSON,
-				Arrays.asList(PageType.HEADER, PageType.CURSOR, PageType.REPLACE_PARAMETER));
+				Arrays.asList(PageType.HEADER, PageType.CURSOR, PageType.REPLACE_PARAMETER, PageType.URL));
 	}
 
 	/**
