@@ -8,7 +8,7 @@ import com.bb.commons.enums.Enums.FileType;
 /**
  * Enum representing different connector types for a storage service.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public enum ConnectorType {

@@ -3,7 +3,7 @@ package com.bb.commons.exception;
 /**
  * Exception thrown when there is an error related to configuration.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class ConfigurationException extends RuntimeException {

@@ -4,7 +4,7 @@ package com.bb.commons.enums;
  * Enumeration classes defining various types, statuses, and metadata for a
  * storage service.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class Enums {

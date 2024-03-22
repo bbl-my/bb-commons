@@ -9,7 +9,7 @@ import com.bb.commons.enums.PageValue;
 /**
  * Represents pageable configurations for HTTP requests.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class Pageable {

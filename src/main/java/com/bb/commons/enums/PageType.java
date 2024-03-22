@@ -10,7 +10,7 @@ import com.bb.commons.enums.Enums.FileType;
 /**
  * Enum representing different page types for pagination.
  *
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public enum PageType {
@@ -46,8 +46,8 @@ public enum PageType {
 	private static final Map<FileType, List<PageType>> PAGE_TYPE_MAPPING = new HashMap<>();
 
 	static {
-		PAGE_TYPE_MAPPING.put(FileType.JSON,
-				Arrays.asList(PageType.HEADER, PageType.CURSOR, PageType.REPLACE_PARAMETER, PageType.URL));
+		PAGE_TYPE_MAPPING.put(FileType.JSON, Arrays.asList(PageType.HEADER, PageType.CURSOR, PageType.REPLACE_PARAMETER,
+				PageType.URL, PageType.NONE));
 	}
 
 	/**

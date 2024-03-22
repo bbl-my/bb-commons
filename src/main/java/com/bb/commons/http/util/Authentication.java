@@ -9,7 +9,7 @@ import com.bb.commons.enums.AuthValue;
 /**
  * Represents authentication details for HTTP requests.
  *
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class Authentication {

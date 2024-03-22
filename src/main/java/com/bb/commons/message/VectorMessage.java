@@ -6,7 +6,7 @@ import java.util.UUID;
  * Represents a vector message containing an ID, transformed file path, and
  * client ID.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class VectorMessage {

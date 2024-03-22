@@ -3,7 +3,7 @@ package com.bb.commons.enums;
 /**
  * Enum representing different page values for pagination.
  *
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public enum PageValue {

@@ -12,7 +12,7 @@ import com.bb.commons.enums.Enums.FileType;
  * (ETL) process. It contains information about a subscription ID and the raw
  * file path associated with the message.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class ETLMessage {

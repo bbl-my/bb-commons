@@ -14,7 +14,7 @@ import com.bb.commons.exception.ConfigurationException;
  * Utility class for evaluating and adding authentication details to HTTP
  * requests.
  * 
- * @author Mahesh.Yadav@blueberry.ai
+ * @author Mahesh.Yadav@blueberrylabs.ai
  * @version 1.0
  */
 public class AuthenticationEvaluator {
